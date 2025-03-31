@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007acc;
+    padding: 15px 50px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    background: url('https://www.nosequeestudiar.net/site/assets/files/217/medicina-mano-medica.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Cambiar el color del texto en el banner */
+.banner h2, .banner p {
+    color: #333; /* Tono oscuro para que el texto sea legible */
+}
+
+/* Contenido */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.box {
+    width: 45%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+}
+
+.box ul {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Pie de página */
+footer {
+    background: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
